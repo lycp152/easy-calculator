@@ -17,7 +17,6 @@ function C(){
 
 // 数字ボタン
 function push(buttonNum){
-	
 	if(resetFlag == 1){
 		// 数字入力を初期化
 		dispNum = 0;
@@ -41,7 +40,6 @@ function operation(symbol){
 
 // =ボタン
 function equal(){
-
 	switch(nowSymbol){
 		case '+':
 			dispNum = leftNum + dispNum;
