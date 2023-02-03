@@ -6,7 +6,6 @@ var resetFlag = 0;
 function C(){
 	dispNum = 0;
 	resetFlag = 1;
-	operNow = 0;
 	
 	var object = document.getElementById("display");
 	object.innerText = dispNum;
